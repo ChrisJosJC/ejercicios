@@ -13,6 +13,22 @@ body {
     min-height: 100vh;
 }
 
+main {
+    width: 50vw;
+    height: 70vh;
+    display: grid;
+    padding: 20px;
+    place-content: center;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+.text.green {
+    font-size: xx-large;
+    color: rgb(255, 94, 0);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .boxs {
     width: 50vw;
     height: 70vh;
@@ -37,7 +53,7 @@ span {
 }
 
 .box_q {
-    transition: all 2000ms;
+    transition: all 500ms;
     color: orangered;
     display: flex;
     align-content: flex-start;
@@ -58,4 +74,19 @@ button {
     background-color: #3b8ee0;
     border-radius: 2px;
     border: 1px solid black;
+}
+
+select {
+    width: 100%;
+    padding-block: 12px;
+    background: #0ac294;
+    border-radius: 3px;
+    outline: 0;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+option {
+    padding-block: 15px;
+    font-size: 1.2em
 }

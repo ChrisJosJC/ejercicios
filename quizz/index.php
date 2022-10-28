@@ -20,7 +20,7 @@
         <button type="button" id="P1">Continuar</button>
         </div>
         <div class="box_q">
-            <label for="P2">¿Cual es el lenguaje de programación de este año?</label>
+            <label for="P2">¿Cual es el lenguaje de programación que nos enseñan este año?</label>
         <select name="P2" id="P2">
             <option value="Javascript">Javascript</option>
             <option value="CSS">CSS</option>
@@ -56,8 +56,8 @@
         <button type="button" id="P5">Continuar</button>
        </div>
         <div class="box_q">
-            <label for="P6">¿Quien es el/la mas viej@?</label>
-        <<select name="P6" id="P6">
+            <label for="P6">¿Como se escribe correctamente?</label>
+        <select name="P6" id="P6">
             <option value="Xammp">Xammp</option>
             <option value="Zampp">Zampp</option>
             <option value="Xampp">Xampp</option>
@@ -74,12 +74,10 @@
                 e.style =
                 `visibility: hidden;
                 height:0;
-                opacity:0;
-                transform: translate(0, 10px);`
+                opacity:0;`
                 boxs[i+1].style = `visibility: visible;
                 height:auto;
-                opacity:1;
-                transform: translate(0, -10px);`
+                opacity:1;`
             })
         });
         boxs[0].style = `visibility: visible;

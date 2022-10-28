@@ -10,17 +10,10 @@
 <body>
     <?php
         $N1=$_POST["N1"];
-
-        // if ($N1) {
-        //    echo "<h1 class='text green'>Has aprobado, felicidades!!<br> Tu promedio es: <i>".$NF."</i> 🎉</h1>";
-        // } else {
-        //     echo "<h1 class='text red'>Lo siento, has reprobado. 🤕💔<br> Tu promedio es: <i>".$NF."</i> 💔</h1>";
-        // }
-        
         if ($N1>0) {
-            echo "<h1 class='text green'> El <i>".$N1."</i> es un numero positivo🎉</h1>";
+            echo "<h1 class='text green'> El <i>$N1</i> es un numero positivo🎉</h1>";
         } else if($N1<0){
-            echo "<h1 class='text green'>El <i>".$N1."</i> es un numero negativo 🎉</h1>";
+            echo "<h1 class='text green'>El <i>$N1</i> es un numero negativo 🎉</h1>";
         } else {
             echo "<h1 class='text'>Es igual a cero</h1>";
         }

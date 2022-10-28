@@ -58,7 +58,7 @@
         $incorrectas++;
     }
     
-    echo "<main><h1 class='text green'>Has completado el formulario con exito!! Tuviste ".$correctas." respuestas correctas y ".$incorrectas." incorrectas</h1></main>";
+    echo "<main><h1 class='text green'>Has completado el formulario con exito!!<br>🎉🎉🎉<br> Tuviste $correctas respuestas correctas y $incorrectas incorrectas</h1></main>";
     ?>
 </body>
 </html>
